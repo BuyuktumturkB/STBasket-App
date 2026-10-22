@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.stbasket"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="25" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:7:5-81
+15-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:8:5-77
+16-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:8:22-74
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.125.0] /Users/omer/.gradle/caches/transforms-3/43c296450dedecf6433596efb57b907f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.125.0] /Users/omer/.gradle/caches/transforms-3/43c296450dedecf6433596efb57b907f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+18
+19    <application
+19-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:10:5-47:19
+20        android:name="com.stbasket.MainApplication"
+20-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:11:7-38
+21        android:allowBackup="false"
+21-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:15:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] /Users/omer/.gradle/caches/transforms-3/88ad9026124abfaf37cdacca31e03a6f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:13:7-41
+25        android:label="@string/app_name"
+25-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:12:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:14:7-52
+27        android:theme="@style/AppTheme"
+27-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:16:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/debug/AndroidManifest.xml:8:9-44
+29        <activity
+29-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/debug/AndroidManifest.xml:11:9-111
+30            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+30-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/debug/AndroidManifest.xml:11:19-83
+31            android:exported="false" />
+31-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/debug/AndroidManifest.xml:11:84-108
+32        <activity
+32-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:18:7-29:18
+33            android:name="com.stbasket.MainActivity"
+33-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:19:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+34-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:21:9-118
+35            android:exported="true"
+35-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:24:9-32
+36            android:label="@string/app_name"
+36-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:20:9-41
+37            android:launchMode="singleTask"
+37-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:22:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:23:9-51
+39            <intent-filter>
+39-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:25:9-28:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:26:13-65
+40-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:26:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:27:13-73
+42-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:27:23-70
+43            </intent-filter>
+44        </activity> <!-- Receiver burada olmalı (Activity dışı) -->
+45        <receiver
+45-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:32:7-45:18
+46            android:name="com.stbasket.admin.MyDeviceAdminReceiver"
+46-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:33:9-52
+47            android:exported="true"
+47-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:35:9-32
+48            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+48-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:34:9-66
+49            <meta-data
+49-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:37:9-39:59
+50                android:name="android.app.device_admin"
+50-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:38:11-50
+51                android:resource="@xml/device_admin_receiver" />
+51-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:39:11-56
+52
+53            <intent-filter>
+53-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:41:9-43:25
+54                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+54-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:42:11-76
+54-->/Users/omer/Desktop/STBasket-master-Ahmet/android/app/src/main/AndroidManifest.xml:42:19-73
+55            </intent-filter>
+56        </receiver>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/omer/.gradle/caches/transforms-3/252262e106c877ff06adfc8a36a75163/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/omer/.gradle/caches/transforms-3/252262e106c877ff06adfc8a36a75163/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+60            android:authorities="com.stbasket.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/omer/.gradle/caches/transforms-3/252262e106c877ff06adfc8a36a75163/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/omer/.gradle/caches/transforms-3/252262e106c877ff06adfc8a36a75163/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/omer/.gradle/caches/transforms-3/252262e106c877ff06adfc8a36a75163/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/omer/.gradle/caches/transforms-3/252262e106c877ff06adfc8a36a75163/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/omer/.gradle/caches/transforms-3/252262e106c877ff06adfc8a36a75163/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/omer/.gradle/caches/transforms-3/1c2b55e5a2795d3b4c301bcd88bfb1e4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/omer/.gradle/caches/transforms-3/1c2b55e5a2795d3b4c301bcd88bfb1e4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/omer/.gradle/caches/transforms-3/1c2b55e5a2795d3b4c301bcd88bfb1e4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>

@@ -17,6 +17,7 @@ import {useTranslation} from 'react-i18next';
 import {AuthenticateContext} from '../../context/AuthanticateContext';
 import OutofOrderScreen from '../../components/Modals/Errors/OutofOrderScreen';
 import {TokenContext} from '../../context/TokenContext';
+import DownloadModal from '../../components/Modals/DownloadModal';
 
 const QRScreen = () => {
   const {basketId, isOutOfOrder} = useContext(AuthenticateContext);
@@ -89,6 +90,9 @@ const QRScreen = () => {
             <Text style={styles.errorText}>Token alınamadı</Text>
           )}
         </View>
+      </View>
+      <View>
+        <DownloadModal />
       </View>
 
       <Text style={[styles.footerText, {color: theme.textColor}]}>
